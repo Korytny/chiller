@@ -8,7 +8,7 @@ const FeaturedProjects = () => {
   const featuredProjects = projects.filter(project => project.featured).slice(0, 3);
 
   return (
-    <section className="section bg-secondary">
+    <section className="section bg-gradient-to-br from-secondary to-white">
       <div className="container-custom">
         <div className="mb-12 text-center">
           <span className="mb-2 inline-block rounded-full bg-accent px-3 py-1 text-xs font-medium">
@@ -24,7 +24,7 @@ const FeaturedProjects = () => {
           {featuredProjects.map((project) => (
             <div
               key={project.id}
-              className="group overflow-hidden rounded-xl bg-background transition-all duration-300 hover:shadow-lg"
+              className="group overflow-hidden rounded-xl bg-background border border-gray-700 transition-all duration-300 hover:shadow-lg"
             >
               <Link to={`/projects/${project.id}`} className="block">
                 <div className="relative h-64 overflow-hidden">

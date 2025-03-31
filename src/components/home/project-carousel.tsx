@@ -11,7 +11,7 @@ import {
 
 const ProjectCarousel = () => {
   return (
-    <section className="py-16 md:py-24 bg-secondary">
+    <section className="py-16 md:py-24 bg-gradient-to-br from-accent to-white">
       <div className="container-custom">
         <div className="text-center mb-12">
           <span className="mb-4 inline-block rounded-full bg-accent px-3 py-1 text-xs font-medium">
@@ -36,7 +36,7 @@ const ProjectCarousel = () => {
               {projectImages.map((item) => (
                 <CarouselItem key={item.id} className="md:basis-1/2 lg:basis-1/3">
                   <div className="p-1">
-                    <div className="rounded-lg overflow-hidden">
+                    <div className="rounded-lg overflow-hidden border border-gray-700">
                       <img
                         src={item.image}
                         alt={item.title}

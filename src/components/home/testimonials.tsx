@@ -22,10 +22,10 @@ const Testimonials = () => {
           {testimonials.map((testimonial) => (
             <div 
               key={testimonial.id} 
-              className="flex flex-col bg-white rounded-lg p-6 shadow-sm hover-scale"
+              className="flex flex-col bg-white rounded-lg p-6 shadow-sm hover-scale border border-gray-700"
             >
               <div className="flex items-center mb-4">
-                <div className="mr-4 h-12 w-12 overflow-hidden rounded-full">
+                <div className="mr-4 h-12 w-12 overflow-hidden rounded-full border border-gray-700">
                   <img 
                     src={testimonial.image} 
                     alt={testimonial.name} 

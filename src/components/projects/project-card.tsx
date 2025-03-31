@@ -10,7 +10,7 @@ interface ProjectCardProps {
 
 const ProjectCard = ({ project }: ProjectCardProps) => {
   return (
-    <div className="group overflow-hidden rounded-xl bg-white transition-all duration-500 hover:shadow-xl">
+    <div className="group overflow-hidden rounded-xl bg-white transition-all duration-500 hover:shadow-xl border border-gray-700">
       <Link to={`/projects/${project.id}`} className="block">
         <div className="relative h-64 overflow-hidden">
           <div className="absolute inset-0 z-10 bg-gradient-to-t from-black/40 via-transparent to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
@@ -19,13 +19,13 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
             alt={project.title}
             className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
           />
-          <div className="absolute bottom-4 right-4 z-20 rounded-full bg-white p-2 opacity-0 shadow-md transition-all duration-300 group-hover:opacity-100">
+          <div className="absolute bottom-4 right-4 z-20 rounded-full bg-white p-2 opacity-0 shadow-md transition-all duration-300 group-hover:opacity-100 border border-gray-700">
             <ArrowUpRight size={18} className="text-primary" />
           </div>
         </div>
         <div className="p-6">
           <div className="mb-3 flex items-center gap-2">
-            <span className="rounded-full bg-secondary px-2.5 py-0.5 text-xs font-medium text-secondary-foreground">
+            <span className="rounded-full bg-secondary px-2.5 py-0.5 text-xs font-medium text-secondary-foreground border border-gray-700">
               {project.category}
             </span>
             <span className="text-xs text-muted-foreground">

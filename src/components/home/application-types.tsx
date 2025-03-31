@@ -23,7 +23,7 @@ const ApplicationTypes = () => {
           {applicationTypes.map((type) => (
             <div 
               key={type.id} 
-              className="relative overflow-hidden rounded-lg hover-scale bg-white shadow-md"
+              className="relative overflow-hidden rounded-lg hover-scale bg-white shadow-md border border-gray-700"
             >
               <div className="h-48 overflow-hidden">
                 <img 

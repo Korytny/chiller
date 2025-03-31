@@ -15,17 +15,17 @@ const ProjectGrid = () => {
     : projects.filter(project => project.category === activeCategory);
 
   return (
-    <div className="container-custom py-12">
+    <div className="container-custom py-12 bg-gradient-to-br from-secondary/50 to-white">
       {/* Category filter */}
       <div className="mb-12 flex flex-wrap items-center justify-center gap-2">
         {categories.map((category) => (
           <button
             key={category}
             onClick={() => setActiveCategory(category)}
-            className={`rounded-full px-4 py-1.5 text-sm transition-all ${
+            className={`rounded-full px-4 py-1.5 text-sm transition-all border ${
               activeCategory === category
-                ? 'bg-primary text-primary-foreground'
-                : 'bg-secondary text-secondary-foreground hover:bg-secondary/80'
+                ? 'bg-primary text-primary-foreground border-gray-700'
+                : 'bg-secondary text-secondary-foreground hover:bg-secondary/80 border-gray-700'
             }`}
           >
             {category === 'all' ? 'Все проекты' : category}

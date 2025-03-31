@@ -1,4 +1,3 @@
-
 export const companyInfo = {
   name: "ДревоТент",
   slogan: "Деревянные шатры ручной работы",
@@ -41,24 +40,10 @@ export const applicationTypes = [
     icon: "utensils"
   },
   {
-    id: "restaurant",
-    title: "Ресторан",
-    description: "Создайте уникальную атмосферу для ваших гостей с деревянными шатрами, которые сочетают комфорт и близость к природе.",
-    image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    icon: "coffee"
-  },
-  {
-    id: "school",
-    title: "Школа",
-    description: "Образовательные пространства на открытом воздухе, способствующие креативности и более глубокому обучению.",
-    image: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1622&q=80",
-    icon: "graduation-cap"
-  },
-  {
     id: "showroom",
     title: "Бизнес шоурум",
     description: "Презентуйте ваши продукты и услуги в уникальном пространстве, которое выделит вас среди конкурентов.",
-    image: "https://images.unsplash.com/photo-1604014236812-a5f2ffe2d14d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+    image: "https://images.unsplash.com/photo-1497366811353-6870744d04b2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80",
     icon: "briefcase"
   },
   {
@@ -108,33 +93,33 @@ export const testimonials = [
 export const projectImages = [
   {
     id: 1,
-    title: "Шатер для ресторана",
+    title: "Шатер для Ресторана Усадьба",
     image: "https://images.unsplash.com/photo-1544984243-ec57ea28eba3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
   },
   {
     id: 2,
-    title: "Павильон для отдыха",
+    title: "Шатер для свадебного агенства Сваха",
     image: "https://images.unsplash.com/photo-1595877244574-e90ce41ce089?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
   },
   {
     id: 3,
-    title: "Летняя кухня",
+    title: "Павильон для компании Ситроен в Калуге",
     image: "https://images.unsplash.com/photo-1613545325278-f24b0cae1224?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
   },
   {
     id: 4,
     title: "Беседка для сада",
-    image: "https://images.unsplash.com/photo-1572202808998-5aa4487d4b0f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+    image: "https://images.unsplash.com/photo-1572202808998-5aa4487d4b0f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
   },
   {
     id: 5,
-    title: "Школьный павильон",
-    image: "https://images.unsplash.com/photo-1622547748225-3fc4abd2cca0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80"
+    title: "Павильон для отдыха",
+    image: "https://images.unsplash.com/photo-1622547748225-3fc4abd2cca0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80"
   },
   {
     id: 6,
     title: "Шоурум для бизнеса",
-    image: "https://images.unsplash.com/photo-1591017403286-fd8493524e1e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+    image: "https://images.unsplash.com/photo-1591017403286-fd8493524e1e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
   }
 ];
 
@@ -153,35 +138,35 @@ export interface Project {
   images: string[];
 }
 
-// Export the projects array with sample data
+// Export the projects array with updated data
 export const projects: Project[] = [
   {
-    id: "wooden-pavilion-1",
-    title: "Деревянный павильон для ресторана",
-    category: "Рестораны",
+    id: "small-tent",
+    title: "Маленький тент 6x6",
+    category: "Частные объекты",
     year: "2023",
     location: "Москва",
-    size: "120 м²",
-    thumbnail: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    shortDescription: "Элегантный деревянный павильон для всесезонного использования в ресторане.",
-    description: "Павильон выполнен из экологически чистой сибирской лиственницы и спроектирован для максимального комфорта как в летние, так и в зимние месяцы. Большие панорамные окна обеспечивают прекрасный вид на окружающую природу. Интерьер павильона оформлен в стиле современного рустика, что создает теплую и уютную атмосферу для гостей ресторана.",
+    size: "36 м²",
+    thumbnail: "https://images.unsplash.com/photo-1517848568502-d03fa74e1964?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+    shortDescription: "Компактный деревянный шатер для небольших мероприятий и отдыха.",
+    description: "Компактный деревянный шатер размером 6x6 метров, идеально подходит для небольших семейных мероприятий, барбекю с друзьями или создания уютного уголка для отдыха в саду. Несмотря на небольшие размеры, шатер обладает всеми преимуществами наших конструкций: прочностью, экологичностью и элегантным дизайном.",
     featured: true,
     images: [
-      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+      "https://images.unsplash.com/photo-1517848568502-d03fa74e1964?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
       "https://images.unsplash.com/photo-1552566626-52f8b828add9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
       "https://images.unsplash.com/photo-1464195244916-405fa0a82545?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
     ]
   },
   {
-    id: "summer-kitchen-1",
-    title: "Летняя кухня для загородного дома",
-    category: "Летние кухни",
+    id: "medium-tent",
+    title: "Средний тент 10x10",
+    category: "Мероприятия",
     year: "2022",
     location: "Подмосковье",
-    size: "45 м²",
+    size: "100 м²",
     thumbnail: "https://images.unsplash.com/photo-1600585152220-90363fe7e115?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    shortDescription: "Функциональная летняя кухня с зоной барбекю для семейного отдыха.",
-    description: "Летняя кухня спроектирована для комфортного приготовления пищи на свежем воздухе. Она включает в себя зону барбекю, рабочие поверхности из натурального камня, раковину и место для хранения кухонной утвари. Крыша павильона защищает от солнца и легкого дождя, а открытые стороны обеспечивают прекрасную вентиляцию и вид на сад.",
+    shortDescription: "Универсальный шатер для проведения мероприятий среднего размера.",
+    description: "Шатер размером 10x10 метров - универсальное решение для проведения мероприятий среднего масштаба: семейных праздников, корпоративных встреч или небольших свадеб. Просторная площадь в 100 квадратных метров позволяет с комфортом разместить до 50 гостей. Шатер легко трансформируется под различные нужды заказчика.",
     featured: true,
     images: [
       "https://images.unsplash.com/photo-1600585152220-90363fe7e115?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
@@ -190,15 +175,15 @@ export const projects: Project[] = [
     ]
   },
   {
-    id: "event-pavilion-1",
-    title: "Павильон для свадебных церемоний",
+    id: "large-tent",
+    title: "Большой тент 16x16",
     category: "Мероприятия",
     year: "2023",
     location: "Сочи",
-    size: "150 м²",
+    size: "256 м²",
     thumbnail: "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1498&q=80",
-    shortDescription: "Изысканный павильон для проведения свадеб с панорамным видом на море.",
-    description: "Павильон расположен на берегу моря и предназначен для проведения свадебных церемоний и банкетов. Легкая конструкция с элементами декора из натурального дерева создает романтическую атмосферу. Павильон вмещает до 80 гостей и оборудован всем необходимым для проведения мероприятий высокого уровня.",
+    shortDescription: "Просторный шатер для масштабных мероприятий и больших торжеств.",
+    description: "Наш самый просторный шатер размером 16x16 метров создан для проведения масштабных мероприятий. С площадью 256 квадратных метров, он с легкостью вмещает до 150 гостей, обеспечивая комфорт даже при большом количестве участников. Идеальное решение для крупных свадеб, фестивалей, корпоративных мероприятий и выставок.",
     featured: true,
     images: [
       "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1498&q=80",
@@ -236,7 +221,7 @@ export const projects: Project[] = [
     featured: false,
     images: [
       "https://images.unsplash.com/photo-1604014236812-a5f2ffe2d14d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-      "https://images.unsplash.com/photo-1591017403286-fd8493524e1e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+      "https://images.unsplash.com/photo-1591017403286-fd8493524e1e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
       "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1558&q=80"
     ]
   },
@@ -253,8 +238,8 @@ export const projects: Project[] = [
     featured: false,
     images: [
       "https://images.unsplash.com/photo-1572202808998-5aa4487d4b0f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80",
-      "https://images.unsplash.com/photo-1595877244574-e90ce41ce089?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80",
-      "https://images.unsplash.com/photo-1626863905121-3b0c0ed7b94c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+      "https://images.unsplash.com/photo-1595877244574-e90ce41ce089?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80",
+      "https://images.unsplash.com/photo-1626863905121-3b0c0ed7b94c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
     ]
   }
 ];
