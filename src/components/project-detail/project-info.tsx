@@ -36,35 +36,35 @@ const ProjectInfo = ({ project }: ProjectInfoProps) => {
       </div>
 
       <div className="rounded-lg bg-secondary p-6">
-        <h3 className="mb-4 text-xl font-semibold">Interested in a similar project?</h3>
+        <h3 className="mb-4 text-xl font-semibold">Интересует похожий проект?</h3>
         <p className="mb-4 text-muted-foreground">
-          Contact us today to discuss how we can create a custom wooden structure for your space.
+          Свяжитесь с нами сегодня, чтобы обсудить, как мы можем создать для вас индивидуальную деревянную конструкцию.
         </p>
         <a
           href={`tel:${companyInfo.phone}`}
           className="btn-primary inline-flex items-center gap-2"
         >
           <Phone size={16} />
-          Contact Us
+          Связаться с нами
         </a>
       </div>
 
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
         <div className="rounded-lg border border-border bg-card p-4 text-center">
           <h4 className="mb-2 text-sm font-medium uppercase text-muted-foreground">
-            Category
+            Категория
           </h4>
           <p className="text-lg font-medium">{project.category}</p>
         </div>
         <div className="rounded-lg border border-border bg-card p-4 text-center">
           <h4 className="mb-2 text-sm font-medium uppercase text-muted-foreground">
-            Location
+            Местоположение
           </h4>
           <p className="text-lg font-medium">{project.location}</p>
         </div>
         <div className="rounded-lg border border-border bg-card p-4 text-center">
           <h4 className="mb-2 text-sm font-medium uppercase text-muted-foreground">
-            Completion Year
+            Год завершения
           </h4>
           <p className="text-lg font-medium">{project.year}</p>
         </div>

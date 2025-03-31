@@ -38,7 +38,7 @@ const ProjectDetail = () => {
             className="mb-6 inline-flex items-center text-sm text-muted-foreground transition-colors hover:text-foreground"
           >
             <ChevronLeft size={16} className="mr-1" />
-            Back to Projects
+            Назад к проектам
           </Link>
           
           <div className="grid grid-cols-1 gap-12 lg:grid-cols-12">

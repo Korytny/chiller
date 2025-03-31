@@ -28,7 +28,7 @@ const ProjectGrid = () => {
                 : 'bg-secondary text-secondary-foreground hover:bg-secondary/80'
             }`}
           >
-            {category === 'all' ? 'All Projects' : category}
+            {category === 'all' ? 'Все проекты' : category}
           </button>
         ))}
       </div>
@@ -51,7 +51,7 @@ const ProjectGrid = () => {
       
       {filteredProjects.length === 0 && (
         <div className="my-20 text-center">
-          <p className="text-xl text-muted-foreground">No projects found in this category.</p>
+          <p className="text-xl text-muted-foreground">Проектов в данной категории не найдено.</p>
         </div>
       )}
     </div>

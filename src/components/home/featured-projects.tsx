@@ -12,11 +12,11 @@ const FeaturedProjects = () => {
       <div className="container-custom">
         <div className="mb-12 text-center">
           <span className="mb-2 inline-block rounded-full bg-accent px-3 py-1 text-xs font-medium">
-            Our Work
+            Наши работы
           </span>
-          <h2 className="mb-4 text-3xl font-bold sm:text-4xl">Featured Projects</h2>
+          <h2 className="mb-4 text-3xl font-bold sm:text-4xl">Избранные проекты</h2>
           <p className="mx-auto max-w-2xl text-muted-foreground">
-            Discover our most outstanding wooden structures, each crafted with meticulous attention to detail and designed to harmonize with their surroundings.
+            Познакомьтесь с нашими лучшими деревянными конструкциями, каждая из которых создана с тщательным вниманием к деталям и гармонично вписывается в окружающую среду.
           </p>
         </div>
 
@@ -43,7 +43,7 @@ const FeaturedProjects = () => {
                     {project.shortDescription}
                   </p>
                   <div className="flex items-center text-sm text-primary">
-                    <span className="font-medium">View Project</span>
+                    <span className="font-medium">Смотреть проект</span>
                     <ArrowRight size={16} className="ml-1 transition-transform group-hover:translate-x-1" />
                   </div>
                 </div>
@@ -57,7 +57,7 @@ const FeaturedProjects = () => {
             to="/projects"
             className="btn-secondary inline-flex items-center gap-2"
           >
-            View All Projects
+            Смотреть все проекты
             <ArrowRight size={16} />
           </Link>
         </div>
