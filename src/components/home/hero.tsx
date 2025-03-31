@@ -26,33 +26,30 @@ const Hero = () => {
     <section className="relative flex min-h-screen items-center justify-center overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-black/30 backdrop-blur-[2px]" />
         <img
-          src="https://images.unsplash.com/photo-1544984243-ec57ea28eba3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
-          alt="Деревянный шатер в природе"
+          src="/img/hd11.jpg"
+          alt="Фоновое изображение деревянных конструкций"
           className="h-full w-full object-cover"
+          onError={(e) => console.error('Failed to load hero image', e)}
         />
       </div>
 
       {/* Content */}
-      <div 
+      <div
         ref={heroRef}
-        className="container relative z-10 px-4 py-16 text-center text-white"
+        className="container relative z-10 px-4 pb-16 text-center"
       >
         <div className="mx-auto max-w-4xl">
-          <span className="mb-4 inline-block rounded-full bg-white/10 px-4 py-1 text-sm font-medium backdrop-blur-sm">
-            {companyInfo.slogan}
-          </span>
-          <h1 className="mb-6 text-4xl font-bold leading-tight sm:text-5xl md:text-6xl">
-            Уникальные деревянные шатры <span className="block">и конструкции</span>
+          <h1 className="mb-6 text-4xl font-bold leading-tight text-blue-950 sm:text-5xl md:text-6xl">
+            Уникальные деревянные <span className="block">шатры и навесы</span>
           </h1>
-          <p className="mx-auto mb-8 max-w-2xl text-lg text-white/90 md:text-xl">
+          <p className="mx-auto mb-8 max-w-2xl text-base text-blue-800 md:text-lg">
             Мы проектируем и создаем красивые деревянные конструкции, сочетающие в себе традиционное мастерство и современный дизайн, создавая идеальные пространства для любого окружения.
           </p>
           <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
             <Link
               to="/projects"
-              className="group inline-flex items-center gap-2 rounded-md bg-white px-6 py-3 text-base font-semibold text-primary transition-all hover:bg-opacity-90"
+              className="group inline-flex items-center gap-2 rounded-md bg-white px-6 py-3 text-base font-semibold text-blue-950 transition-all hover:bg-opacity-90"
             >
               Смотреть проекты
               <ArrowRight size={18} className="transition-transform group-hover:translate-x-1" />

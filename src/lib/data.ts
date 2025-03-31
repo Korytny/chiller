@@ -36,21 +36,21 @@ export const applicationTypes = [
     id: "kitchen",
     title: "Летняя кухня",
     description: "Идеальное решение для приготовления пищи на открытом воздухе в окружении природы и свежего воздуха.",
-    image: "https://images.unsplash.com/photo-1600585152220-90363fe7e115?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+    image: "/img/var1.jpg",
     icon: "utensils"
   },
   {
     id: "showroom",
     title: "Бизнес шоурум",
     description: "Презентуйте ваши продукты и услуги в уникальном пространстве, которое выделит вас среди конкурентов.",
-    image: "https://images.unsplash.com/photo-1497366811353-6870744d04b2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80",
+    image: "/img/var2.jpg",
     icon: "briefcase"
   },
   {
     id: "event",
     title: "Мероприятия",
     description: "Идеальное решение для проведения свадеб, корпоративов и других особых событий в элегантной обстановке.",
-    image: "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1498&q=80",
+    image: "/img/var3.jpg",
     icon: "calendar"
   }
 ];
@@ -94,17 +94,17 @@ export const projectImages = [
   {
     id: 1,
     title: "Шатер для Ресторана Усадьба",
-    image: "https://images.unsplash.com/photo-1544984243-ec57ea28eba3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+    image: "/img/iz1.jpg"
   },
   {
     id: 2,
     title: "Шатер для свадебного агенства Сваха",
-    image: "https://images.unsplash.com/photo-1595877244574-e90ce41ce089?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+    image: "/img/iz2.jpg"
   },
   {
     id: 3,
-    title: "Павильон для компании Ситроен в Калуге",
-    image: "https://images.unsplash.com/photo-1613545325278-f24b0cae1224?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+    title: "Павильон для компании Ситроен",
+    image: "/img/iz3.jpg"
   },
   {
     id: 4,
@@ -147,7 +147,7 @@ export const projects: Project[] = [
     year: "2023",
     location: "Москва",
     size: "36 м²",
-    thumbnail: "https://images.unsplash.com/photo-1517848568502-d03fa74e1964?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+    thumbnail: "/img/hd4.jpg",
     shortDescription: "Компактный деревянный шатер для небольших мероприятий и отдыха.",
     description: "Компактный деревянный шатер размером 6x6 метров, идеально подходит для небольших семейных мероприятий, барбекю с друзьями или создания уютного уголка для отдыха в саду. Несмотря на небольшие размеры, шатер обладает всеми преимуществами наших конструкций: прочностью, экологичностью и элегантным дизайном.",
     featured: true,
@@ -164,7 +164,7 @@ export const projects: Project[] = [
     year: "2022",
     location: "Подмосковье",
     size: "100 м²",
-    thumbnail: "https://images.unsplash.com/photo-1600585152220-90363fe7e115?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+    thumbnail: "/img/hd2.jpg",
     shortDescription: "Универсальный шатер для проведения мероприятий среднего размера.",
     description: "Шатер размером 10x10 метров - универсальное решение для проведения мероприятий среднего масштаба: семейных праздников, корпоративных встреч или небольших свадеб. Просторная площадь в 100 квадратных метров позволяет с комфортом разместить до 50 гостей. Шатер легко трансформируется под различные нужды заказчика.",
     featured: true,
@@ -181,7 +181,7 @@ export const projects: Project[] = [
     year: "2023",
     location: "Сочи",
     size: "256 м²",
-    thumbnail: "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1498&q=80",
+    thumbnail: "/img/hd3.JPG",
     shortDescription: "Просторный шатер для масштабных мероприятий и больших торжеств.",
     description: "Наш самый просторный шатер размером 16x16 метров создан для проведения масштабных мероприятий. С площадью 256 квадратных метров, он с легкостью вмещает до 150 гостей, обеспечивая комфорт даже при большом количестве участников. Идеальное решение для крупных свадеб, фестивалей, корпоративных мероприятий и выставок.",
     featured: true,

@@ -121,7 +121,7 @@ const ContactForm = () => {
                     value={formData.name}
                     onChange={handleChange}
                     required
-                    className="w-full rounded-md border border-gray-700 bg-background px-3 py-2 text-sm focus:border-primary focus:outline-none"
+                    className="w-full rounded-md bg-background px-3 py-2 text-sm focus:outline-none"
                     placeholder="Введите ваше имя"
                   />
                 </div>
@@ -137,7 +137,7 @@ const ContactForm = () => {
                     value={formData.phone}
                     onChange={handleChange}
                     required
-                    className="w-full rounded-md border border-gray-700 bg-background px-3 py-2 text-sm focus:border-primary focus:outline-none"
+                    className="w-full rounded-md bg-background px-3 py-2 text-sm focus:outline-none"
                     placeholder="Введите ваш телефон"
                   />
                 </div>
@@ -154,7 +154,7 @@ const ContactForm = () => {
                   value={formData.email}
                   onChange={handleChange}
                   required
-                  className="w-full rounded-md border border-gray-700 bg-background px-3 py-2 text-sm focus:border-primary focus:outline-none"
+                  className="w-full rounded-md bg-background px-3 py-2 text-sm focus:outline-none"
                   placeholder="Введите ваш email"
                 />
               </div>
@@ -169,7 +169,7 @@ const ContactForm = () => {
                   value={formData.message}
                   onChange={handleChange}
                   rows={4}
-                  className="w-full rounded-md border border-gray-700 bg-background px-3 py-2 text-sm focus:border-primary focus:outline-none"
+                  className="w-full rounded-md bg-background px-3 py-2 text-sm focus:outline-none"
                   placeholder="Опишите ваш проект"
                 />
               </div>

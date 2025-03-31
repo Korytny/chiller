@@ -35,12 +35,19 @@ const AboutSection = () => {
           <div className="relative">
             <div className="relative overflow-hidden rounded-lg shadow-lg md:ml-12 border border-gray-700">
               <img
-                src="https://images.unsplash.com/photo-1469362102473-8622cfb973cd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1476&q=80"
-                alt="Craftsman working on wooden structure"
+                src="/img/bs1.jpg"
+                alt="Наша команда мастеров"
                 className="h-full w-full object-cover"
               />
             </div>
-            <div className="absolute -bottom-6 -left-6 hidden h-64 w-64 rounded-lg bg-accent md:block"></div>
+            <div
+              className="absolute -bottom-6 -left-6 hidden h-64 w-64 rounded-lg md:block"
+              style={{
+                backgroundImage: "url('/img/bs2.JPG')",
+                backgroundSize: "cover",
+                backgroundPosition: "center"
+              }}
+            ></div>
           </div>
 
           {/* Content */}
@@ -61,7 +68,7 @@ const AboutSection = () => {
             <div className="grid gap-6 sm:grid-cols-2">
               {values.map((value, index) => (
                 <div key={index} className="flex items-start">
-                  <div className="mr-4 rounded-md bg-background p-2 shadow-sm border border-gray-700">
+                  <div className="mr-4 rounded-md bg-background p-2 shadow-sm">
                     {value.icon}
                   </div>
                   <div>
