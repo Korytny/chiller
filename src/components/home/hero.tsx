@@ -29,7 +29,7 @@ const Hero = () => {
         <div className="absolute inset-0 bg-black/30 backdrop-blur-[2px]" />
         <img
           src="https://images.unsplash.com/photo-1544984243-ec57ea28eba3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
-          alt="Wooden tent structure in nature"
+          alt="Деревянный шатер в природе"
           className="h-full w-full object-cover"
         />
       </div>
@@ -44,24 +44,24 @@ const Hero = () => {
             {companyInfo.slogan}
           </span>
           <h1 className="mb-6 text-4xl font-bold leading-tight sm:text-5xl md:text-6xl">
-            Exceptional Wooden Tents <span className="block">& Outdoor Structures</span>
+            Уникальные деревянные шатры <span className="block">и конструкции</span>
           </h1>
           <p className="mx-auto mb-8 max-w-2xl text-lg text-white/90 md:text-xl">
-            We design and craft beautiful wooden structures that combine traditional craftsmanship with contemporary design, creating perfect outdoor spaces for any environment.
+            Мы проектируем и создаем красивые деревянные конструкции, сочетающие в себе традиционное мастерство и современный дизайн, создавая идеальные пространства для любого окружения.
           </p>
           <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
             <Link
               to="/projects"
               className="group inline-flex items-center gap-2 rounded-md bg-white px-6 py-3 text-base font-semibold text-primary transition-all hover:bg-opacity-90"
             >
-              View Our Projects
+              Смотреть проекты
               <ArrowRight size={18} className="transition-transform group-hover:translate-x-1" />
             </Link>
             <a
               href={`tel:${companyInfo.phone}`}
               className="inline-flex items-center gap-2 rounded-md bg-transparent px-6 py-3 text-base font-semibold text-white ring-1 ring-white/60 transition-all hover:bg-white/10"
             >
-              Contact Us
+              Связаться с нами
             </a>
           </div>
         </div>

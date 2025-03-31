@@ -18,11 +18,11 @@ const Projects = () => {
       <section className="pt-32 pb-16 md:pt-40 md:pb-20">
         <div className="container-custom text-center">
           <span className="mb-4 inline-block rounded-full bg-accent px-3 py-1 text-xs font-medium">
-            Our Work
+            Наши работы
           </span>
-          <h1 className="mb-6 text-4xl font-bold md:text-5xl">Our Projects</h1>
+          <h1 className="mb-6 text-4xl font-bold md:text-5xl">Наши проекты</h1>
           <p className="mx-auto max-w-2xl text-muted-foreground">
-            Explore our collection of premium wooden structures, each crafted with care and precision to create beautiful outdoor living spaces.
+            Изучите нашу коллекцию премиальных деревянных конструкций, каждая из которых создана с заботой и точностью для создания красивых открытых жилых пространств.
           </p>
         </div>
       </section>

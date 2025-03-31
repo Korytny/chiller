@@ -42,14 +42,14 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div>
-            <h3 className="mb-4 text-lg font-medium">Quick Links</h3>
+            <h3 className="mb-4 text-lg font-medium">Быстрые ссылки</h3>
             <ul className="space-y-2">
               <li>
                 <Link 
                   to="/" 
                   className="text-muted-foreground transition-colors hover:text-foreground"
                 >
-                  Home
+                  Главная
                 </Link>
               </li>
               <li>
@@ -57,7 +57,7 @@ const Footer = () => {
                   to="/projects" 
                   className="text-muted-foreground transition-colors hover:text-foreground"
                 >
-                  Projects
+                  Проекты
                 </Link>
               </li>
             </ul>
@@ -65,7 +65,7 @@ const Footer = () => {
 
           {/* Contact */}
           <div>
-            <h3 className="mb-4 text-lg font-medium">Contact</h3>
+            <h3 className="mb-4 text-lg font-medium">Контакты</h3>
             <ul className="space-y-3">
               <li className="flex items-start">
                 <MapPin size={18} className="mr-2 mt-0.5 text-primary" />
@@ -94,26 +94,26 @@ const Footer = () => {
 
           {/* Newsletter */}
           <div>
-            <h3 className="mb-4 text-lg font-medium">Newsletter</h3>
+            <h3 className="mb-4 text-lg font-medium">Рассылка</h3>
             <p className="mb-4 text-sm text-muted-foreground">
-              Subscribe to our newsletter for updates on new projects and offers.
+              Подпишитесь на нашу рассылку, чтобы получать обновления о новых проектах и предложениях.
             </p>
             <form className="flex flex-col space-y-2">
               <input
                 type="email"
-                placeholder="Your email"
+                placeholder="Ваш email"
                 className="rounded-md border border-border bg-background px-3 py-2 text-sm focus:border-primary focus:outline-none"
                 required
               />
               <button type="submit" className="btn-primary">
-                Subscribe
+                Подписаться
               </button>
             </form>
           </div>
         </div>
 
         <div className="mt-12 border-t border-border pt-6 text-center text-sm text-muted-foreground">
-          <p>© {currentYear} {companyInfo.name}. All rights reserved.</p>
+          <p>© {currentYear} {companyInfo.name}. Все права защищены.</p>
         </div>
       </div>
     </footer>

@@ -63,10 +63,10 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				wood: {
-					light: '#E0C9A6',
-					DEFAULT: '#C8A87A',
-					dark: '#A37B45'
+				gold: {
+					light: '#F0E68C',
+					DEFAULT: '#DAA520',
+					dark: '#B8860B'
 				}
 			},
 			borderRadius: {

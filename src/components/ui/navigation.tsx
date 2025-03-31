@@ -12,8 +12,8 @@ const Navigation = () => {
   const location = useLocation();
 
   const links = [
-    { href: '/', label: 'Home' },
-    { href: '/projects', label: 'Projects' },
+    { href: '/', label: 'Главная' },
+    { href: '/projects', label: 'Проекты' },
   ];
 
   useEffect(() => {
@@ -72,7 +72,7 @@ const Navigation = () => {
                   href={`tel:${companyInfo.phone}`} 
                   className="btn-primary inline-flex items-center"
                 >
-                  Contact Us
+                  Связаться с нами
                 </a>
               </li>
             </ul>
@@ -118,7 +118,7 @@ const Navigation = () => {
                   href={`tel:${companyInfo.phone}`} 
                   className="btn-primary inline-flex w-full justify-center"
                 >
-                  Contact Us
+                  Связаться с нами
                 </a>
               </li>
             </ul>

@@ -1,223 +1,119 @@
 
-export type Project = {
-  id: string;
-  title: string;
-  description: string;
-  shortDescription: string;
-  location: string;
-  size: string;
-  year: string;
-  category: string;
-  featured: boolean;
-  thumbnail: string;
-  images: string[];
-};
-
-export const projects: Project[] = [
-  {
-    id: "luxury-garden-pavilion",
-    title: "Luxury Garden Pavilion",
-    description: "This elegant wooden pavilion provides a perfect outdoor relaxation space for a luxury villa. Designed with natural oak beams and a traditional roof, it harmoniously blends with the surrounding garden while offering protection from sun and light rain.",
-    shortDescription: "Elegant outdoor relaxation space with natural oak structure",
-    location: "Alpine Valley",
-    size: "25 m²",
-    year: "2023",
-    category: "Garden Pavilion",
-    featured: true,
-    thumbnail: "https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    images: [
-      "https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-      "https://images.unsplash.com/photo-1574643156929-51fa098b0394?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-      "https://images.unsplash.com/photo-1523544924739-b53cf82c499d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    ],
-  },
-  {
-    id: "mountain-view-gazebo",
-    title: "Mountain View Gazebo",
-    description: "Perched on a hillside with breathtaking mountain views, this wooden gazebo provides a spectacular vantage point. Built with weather-resistant cedar and featuring an innovative hexagonal design, it's the perfect place for entertaining guests or quiet contemplation.",
-    shortDescription: "Hexagonal cedar structure with panoramic mountain views",
-    location: "Mountain Ridge",
-    size: "20 m²",
-    year: "2022",
-    category: "Gazebo",
-    featured: true,
-    thumbnail: "https://images.unsplash.com/photo-1542718610-a1d656d1884c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    images: [
-      "https://images.unsplash.com/photo-1542718610-a1d656d1884c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-      "https://images.unsplash.com/photo-1518609878373-06d740f60d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-      "https://images.unsplash.com/photo-1588880331179-bc9b93a8cb5e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    ],
-  },
-  {
-    id: "lakeside-shelter",
-    title: "Lakeside Shelter",
-    description: "This serene lakeside shelter offers a quiet retreat with stunning water views. Constructed from locally sourced pine and featuring open sides for maximum visibility, it provides the perfect balance of shelter and connection with nature.",
-    shortDescription: "Open-sided pine structure with panoramic lake views",
-    location: "Crystal Lake",
-    size: "30 m²",
-    year: "2023",
-    category: "Shelter",
-    featured: true,
-    thumbnail: "https://images.unsplash.com/photo-1587061633437-187ac80e8a81?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    images: [
-      "https://images.unsplash.com/photo-1587061633437-187ac80e8a81?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-      "https://images.unsplash.com/photo-1534301191365-13726cfb4535?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-      "https://images.unsplash.com/photo-1558443336-dbb3b7755c1b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1476&q=80",
-    ],
-  },
-  {
-    id: "forest-retreat-pavilion",
-    title: "Forest Retreat Pavilion",
-    description: "Nestled among ancient trees, this forest pavilion creates a peaceful retreat. Built with sustainable materials and featuring a unique sloped roof design, it blends seamlessly with its woodland surroundings while providing a comfortable space for relaxation.",
-    shortDescription: "Sustainable woodland structure with unique sloped roof",
-    location: "Evergreen Forest",
-    size: "35 m²",
-    year: "2022",
-    category: "Pavilion",
-    featured: false,
-    thumbnail: "https://images.unsplash.com/photo-1568667256549-094345857637?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    images: [
-      "https://images.unsplash.com/photo-1568667256549-094345857637?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-      "https://images.unsplash.com/photo-1552596265-005a93430901?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1526&q=80",
-      "https://images.unsplash.com/photo-1594312464655-9ff93ea3529c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    ],
-  },
-  {
-    id: "modern-garden-tent",
-    title: "Modern Garden Tent",
-    description: "This contemporary take on the traditional garden tent combines modern design with natural materials. Its clean lines and minimalist approach create a striking appearance, while the sturdy wooden frame and premium fabric covering offer durability and style.",
-    shortDescription: "Contemporary design with clean lines and premium materials",
-    location: "Urban Garden",
-    size: "15 m²",
-    year: "2023",
-    category: "Garden Tent",
-    featured: false,
-    thumbnail: "https://images.unsplash.com/photo-1563648814631-f7931596fb6c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    images: [
-      "https://images.unsplash.com/photo-1563648814631-f7931596fb6c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-      "https://images.unsplash.com/photo-1523713947078-b9841f280c2a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-      "https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    ],
-  },
-  {
-    id: "traditional-wooden-pergola",
-    title: "Traditional Wooden Pergola",
-    description: "This classically designed wooden pergola brings timeless elegance to any outdoor space. Hand-crafted using traditional joinery techniques and premium hardwood, it creates a beautiful framework for climbing plants and provides partial shade for outdoor dining.",
-    shortDescription: "Classically designed structure with traditional joinery techniques",
-    location: "Countryside Estate",
-    size: "40 m²",
-    year: "2022",
-    category: "Pergola",
-    featured: false,
-    thumbnail: "https://images.unsplash.com/photo-1595521970622-79682e5bd442?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80",
-    images: [
-      "https://images.unsplash.com/photo-1595521970622-79682e5bd442?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80",
-      "https://images.unsplash.com/photo-1596825205290-82ddc0f6375d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-      "https://images.unsplash.com/photo-1561488111-5d800fd56b8a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    ],
-  },
-];
-
 export const companyInfo = {
-  name: "WoodenTents",
-  slogan: "Crafting Exceptional Outdoor Structures",
-  founded: "2015",
-  description: "We specialize in designing and building premium wooden structures that blend seamlessly with nature. Our expert craftsmen use only the finest materials to create beautiful, durable, and functional outdoor living spaces.",
-  mission: "To create beautiful outdoor spaces that connect people with nature through exceptional craftsmanship and sustainable practices.",
-  values: [
-    {
-      title: "Craftsmanship",
-      description: "We take pride in our attention to detail and commitment to excellence in every piece we create."
-    },
-    {
-      title: "Sustainability",
-      description: "We source our materials responsibly and design structures that minimize environmental impact."
-    },
-    {
-      title: "Innovation",
-      description: "We constantly explore new designs and techniques while respecting traditional woodworking methods."
-    },
-    {
-      title: "Customer Focus",
-      description: "We work closely with our clients to understand their needs and exceed their expectations."
-    }
-  ],
-  address: "Alpine Valley, 123 Forest Road",
-  phone: "+7 (123) 456-7890",
-  email: "info@woodentents.com",
+  name: "ДревоТент",
+  slogan: "Деревянные шатры ручной работы",
+  description: "Мы проектируем и создаем уникальные деревянные шатры и конструкции, которые сочетают в себе традиционное мастерство и современный дизайн.",
+  address: "г. Москва, ул. Лесная, д. 10",
+  phone: "+7 (495) 123-45-67",
+  email: "info@drevotent.ru",
   socialMedia: {
-    instagram: "https://instagram.com/woodentents",
-    facebook: "https://facebook.com/woodentents",
-    pinterest: "https://pinterest.com/woodentents"
-  }
+    instagram: "https://instagram.com/drevotent",
+    facebook: "https://facebook.com/drevotent",
+  },
 };
 
-export type Testimonial = {
-  id: string;
-  name: string;
-  role: string;
-  company: string;
-  content: string;
-  image?: string;
-};
-
-export const testimonials: Testimonial[] = [
+export const applicationTypes = [
   {
-    id: "1",
-    name: "Alexei Petrov",
-    role: "Homeowner",
-    company: "Private Estate",
-    content: "The wooden pavilion perfectly complements our garden. The craftsmanship is outstanding, and it has become our favorite place to relax and entertain guests.",
-    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+    id: "kitchen",
+    title: "Летняя кухня",
+    description: "Идеальное решение для приготовления пищи на открытом воздухе в окружении природы и свежего воздуха.",
+    image: "https://images.unsplash.com/photo-1600585152220-90363fe7e115?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+    icon: "utensils"
   },
   {
-    id: "2",
-    name: "Marina Volkova",
-    role: "Director",
-    company: "Luxury Resort",
-    content: "We commissioned multiple structures for our resort, and the quality and attention to detail exceeded our expectations. Our guests constantly compliment the beautiful wooden gazebos.",
-    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+    id: "restaurant",
+    title: "Ресторан",
+    description: "Создайте уникальную атмосферу для ваших гостей с деревянными шатрами, которые сочетают комфорт и близость к природе.",
+    image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+    icon: "coffee"
   },
   {
-    id: "3",
-    name: "Sergei Ivanov",
-    role: "Landscape Architect",
-    company: "Green Horizons",
-    content: "As a landscape architect, I've worked with many suppliers. None match the quality and reliability of this company. Their wooden structures are true works of art that enhance any outdoor space.",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+    id: "school",
+    title: "Школа",
+    description: "Образовательные пространства на открытом воздухе, способствующие креативности и более глубокому обучению.",
+    image: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1622&q=80",
+    icon: "graduation-cap"
+  },
+  {
+    id: "showroom",
+    title: "Бизнес шоурум",
+    description: "Презентуйте ваши продукты и услуги в уникальном пространстве, которое выделит вас среди конкурентов.",
+    image: "https://images.unsplash.com/photo-1604014236812-a5f2ffe2d14d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+    icon: "briefcase"
+  },
+  {
+    id: "event",
+    title: "Мероприятия",
+    description: "Идеальное решение для проведения свадеб, корпоративов и других особых событий в элегантной обстановке.",
+    image: "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1498&q=80",
+    icon: "calendar"
   }
 ];
 
-export type Feature = {
-  id: string;
-  title: string;
-  description: string;
-  icon: string;
-};
+export const testimonials = [
+  {
+    id: 1,
+    name: "Алексей Смирнов",
+    position: "Владелец ресторана \"Лесная поляна\"",
+    content: "Наш ресторан полностью преобразился благодаря деревянному шатру от ДревоТент. Посетители в восторге от атмосферы, а наша прибыль выросла на 30%!",
+    rating: 5,
+    image: "https://images.unsplash.com/photo-1567515004624-219c11d31f2e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+  },
+  {
+    id: 2,
+    name: "Елена Михайлова",
+    position: "Директор школы №158",
+    content: "Деревянный павильон для занятий на свежем воздухе стал любимым местом наших учеников. Дети с удовольствием учатся в комфортной и вдохновляющей обстановке.",
+    rating: 5,
+    image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1476&q=80"
+  },
+  {
+    id: 3,
+    name: "Павел Козлов",
+    position: "Организатор свадебных мероприятий",
+    content: "Конструкции от ДревоТент добавляют нашим свадебным мероприятиям особый шарм. Клиенты всегда остаются довольны, а фотографии получаются просто великолепными.",
+    rating: 4,
+    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+  },
+  {
+    id: 4,
+    name: "Марина Соколова",
+    position: "Владелица загородного дома",
+    content: "Заказали летнюю кухню для нашего загородного участка. Результат превзошел все ожидания! Теперь все наши друзья тоже хотят такую же.",
+    rating: 5,
+    image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+  }
+];
 
-export const features: Feature[] = [
+export const projectImages = [
   {
-    id: "premium-materials",
-    title: "Premium Materials",
-    description: "We select only the highest quality woods and materials to ensure durability and beauty.",
-    icon: "gem"
+    id: 1,
+    title: "Шатер для ресторана",
+    image: "https://images.unsplash.com/photo-1544984243-ec57ea28eba3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
   },
   {
-    id: "custom-design",
-    title: "Custom Design",
-    description: "Each structure is designed to meet your specific needs and complement your outdoor space.",
-    icon: "pencil"
+    id: 2,
+    title: "Павильон для отдыха",
+    image: "https://images.unsplash.com/photo-1595877244574-e90ce41ce089?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
   },
   {
-    id: "expert-craftsmen",
-    title: "Expert Craftsmen",
-    description: "Our team of skilled artisans brings decades of experience to every project.",
-    icon: "hammer"
+    id: 3,
+    title: "Летняя кухня",
+    image: "https://images.unsplash.com/photo-1613545325278-f24b0cae1224?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
   },
   {
-    id: "sustainable-practices",
-    title: "Sustainable Practices",
-    description: "We're committed to environmentally responsible sourcing and construction methods.",
-    icon: "leaf"
+    id: 4,
+    title: "Беседка для сада",
+    image: "https://images.unsplash.com/photo-1572202808998-5aa4487d4b0f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+  },
+  {
+    id: 5,
+    title: "Школьный павильон",
+    image: "https://images.unsplash.com/photo-1622547748225-3fc4abd2cca0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80"
+  },
+  {
+    id: 6,
+    title: "Шоурум для бизнеса",
+    image: "https://images.unsplash.com/photo-1591017403286-fd8493524e1e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
   }
 ];

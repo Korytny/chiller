@@ -30,20 +30,20 @@ const Logo = ({ variant = 'default', size = 'md' }: LogoProps) => {
           <path 
             d="M24 4L4 18L4 42L44 42L44 18L24 4Z" 
             fill="none" 
-            stroke={variant === 'white' ? '#FFFFFF' : '#A37B45'} 
+            stroke={variant === 'white' ? '#FFFFFF' : '#DAA520'} 
             strokeWidth="2" 
             strokeLinejoin="round"
           />
           <path 
             d="M24 4L14 12V22L24 30L34 22V12L24 4Z" 
             fill="none" 
-            stroke={variant === 'white' ? '#FFFFFF' : '#A37B45'} 
+            stroke={variant === 'white' ? '#FFFFFF' : '#DAA520'} 
             strokeWidth="2" 
             strokeLinejoin="round"
           />
         </svg>
       </div>
-      <h1 className={`font-serif font-semibold ${textColor} ${sizeClasses[size]}`}>
+      <h1 className={`font-sans font-semibold ${textColor} ${sizeClasses[size]}`}>
         {companyInfo.name}
       </h1>
     </Link>
